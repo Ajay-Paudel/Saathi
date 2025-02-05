@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+body
+{
+    font-family: "Lato", serif;
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+}
+.jc
+{
+    justify-content: space-between;
+}
+.ai 
+{
+    align-items: center;
+}
+.gap-10
+{
+    gap: 10px;
+}
+.gap-15
+{
+    gap: 15px;
+}
+.gap-20
+{
+    gap: 20px;
+}
+.top
+{
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+.brown i
+{
+    color: #967B4F;
+}
+.logo
+{
+    width: 110px;
+}
+header
+{
+    padding: 15px 0;
+}
+header a
+{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.w 
+{
+    width: 100%;
+}
+.about-left,.about-right
+{
+    width: 50%;
+}
+p
+{
+    line-height: 1.5;
+}
+.about 
+{
+    padding: 25px 0;
+}
+.btn
+{
+    background: red;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+.about h2
+{
+    padding: 20px 0;
+    color: #967B4F;
+}
+.card
+{
+    width: 380px;
+    box-shadow: 0 2px 8px 0 #000;
+}
+.card-body
+{
+    padding: 20px;
+}
+.card-body p
+{
+    color: #999;
+    padding: 20px 0;
+}
+.card-footer
+{
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.title
+{
+    padding: 20px 0;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+.pagination
+{
+    margin: 30px 0;
+}
+.jcontent
+{
+    justify-content: center;
+}
+footer
+{
+    background: #000;
+    color: #fff;
+    padding: 70px 0;
+}
+.copyright
+{
+    background: #967B4F;
+    padding: 15px 0;
+    color: #fff;
+}
+.breadcrumb
+{
+    background: #967B4F;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.content-left
+{
+    width: 60%;
+    line-height: 1.7;
+}
+.content-right
+{
+    width: 40%;
+}
+.content-left h5 {
+    font-weight: 800px;
+    padding: 15px 0;
+    
+}
+.content-left p {
+    padding-bottom: 10px;
+    color: #666464;
+}
+.content{
+    padding: 40px 0;
+}
+.thumb{
+    width: 90px;
+}
+.my
+{
+    margin: 20px 0;
+}
+.point
+{
+    list-style: circle;
+    padding-left: 20px;
+}
